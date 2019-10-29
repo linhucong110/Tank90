@@ -1,3 +1,3 @@
 # Tank90
 90 Tank
-#feature for Test new function
+90坦克, 使用VB.Net实现
