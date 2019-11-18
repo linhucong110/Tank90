@@ -1,0 +1,164 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Tank90
+</name>
+</assembly>
+<members>
+<member name="E:Tank90.SystemHook.MouseActivity">
+	<summary>鼠标激活事件</summary>
+</member><member name="E:Tank90.SystemHook.KeyDown">
+	<summary>键盘按下事件</summary>
+</member><member name="E:Tank90.SystemHook.KeyPress">
+	<summary>键盘输入事件</summary>
+</member><member name="E:Tank90.SystemHook.KeyUp">
+	<summary>键盘松开事件</summary>
+</member><member name="M:Tank90.SystemHook.#ctor">
+	<summary>创建一个全局鼠标键盘钩子 (请使用Start方法开始监视)</summary>
+</member><member name="M:Tank90.SystemHook.#ctor(System.Boolean)">
+	<summary>创建一个全局鼠标键盘钩子，决定是否安装钩子</summary>
+	<param name="InstallAll">是否立刻挂钩系统消息</param>
+</member><member name="M:Tank90.SystemHook.#ctor(System.Boolean,System.Boolean)">
+	<summary>创建一个全局鼠标键盘钩子，并决定安装钩子的类型</summary>
+	<param name="InstallKeyboard">挂钩键盘消息</param>
+	<param name="InstallMouse">挂钩鼠标消息</param>
+</member><member name="M:Tank90.SystemHook.Finalize">
+	<summary>析构函数</summary>
+</member><member name="M:Tank90.SystemHook.StartHook(System.Boolean,System.Boolean)">
+	<summary>开始安装系统钩子</summary>
+	<param name="InstallKeyboardHook">挂钩键盘消息</param>
+	<param name="InstallMouseHook">挂钩鼠标消息</param>
+</member><member name="M:Tank90.SystemHook.UnHook(System.Boolean,System.Boolean,System.Boolean)">
+	<summary>立刻卸载系统钩子</summary>
+	<param name="UninstallKeyboardHook">卸载键盘钩子</param>
+	<param name="UninstallMouseHook">卸载鼠标钩子</param>
+	<param name="ThrowExceptions">是否报告错误</param>
+</member><member name="P:Tank90.SystemHook.KeyHookInvalid">
+	<summary>键盘钩子是否无效</summary>
+</member><member name="P:Tank90.SystemHook.MouseHookInvalid">
+	<summary>鼠标钩子是否无效</summary>
+</member><member name="T:Tank90.SystemHook">
+	<summary>本类可以在.NET环境下使用系统键盘与鼠标钩子</summary>
+</member><member name="T:Tank90.Setting.VirtualKeys">
+	<summary>
+ 虚拟键码枚举
+ </summary>
+</member><member name="P:Tank90.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Tank90.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Tank90.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Tank90.MainForm.CurrentKeyState(System.Byte)">
+	<summary>
+ 获取键盘按键状态
+ </summary>
+</member><member name="P:Tank90.ImagePosition.StageFlag">
+	<summary>
+ 关卡旗帜
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Tank90.ImagePosition.BaseBroken">
+	<summary>
+ 基地损坏
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Tank90.ImagePosition.Base">
+	<summary>
+ 基地
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Tank90.ImagePosition.Bonus_Life">
+	<summary>
+ 生命图标
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Tank90.ImagePosition.Bonus_Shovel">
+	<summary>
+ 铲子图标
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Tank90.ImagePosition.Bonus_BoomShell">
+	<summary>
+ 炸弹图标
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Tank90.ImagePosition.Bonus_Helmet">
+	<summary>
+ 头盔图标
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Tank90.ImagePosition.Bonus_Star">
+	<summary>
+ 星星图标
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Tank90.ImagePosition.Bonus_Gun">
+	<summary>
+ 枪图标
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Tank90.ImagePosition.Bonus_TimeClock">
+	<summary>
+ 时钟图标
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Tank90.ImagePosition.Bonus_Ship">
+	<summary>
+ 轮船图标
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Tank90.ImagePosition.Bullet">
+	<summary>
+ 子弹
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Tank90.ImagePosition.Brick">
+	<summary>
+ 砖块图片
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Tank90.ImagePosition.Steel">
+	<summary>
+ 钢板图片
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
